@@ -1,7 +1,7 @@
 {
   "name": "react-native-adbannerview",
   "description": "React Native Bridge for ADBannerView",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Patrick Puritscher <blackout289@gmail.com",
   "license": "MIT",
   "keywords": [

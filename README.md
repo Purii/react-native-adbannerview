@@ -31,7 +31,7 @@ Also check the example below, with an additional view-wrapper.
 | actionDidFinish | After banner view finishes executing an action |
 
 ## Example
-![](https://github.com/Purii/react-native-adbannerview/blob/master/screenshot.png)
+![](https://raw.githubusercontent.com/Purii/react-native-adbannerview/master/screenshot.png)
 ```javascript
 /**
  * Sample React Native App
