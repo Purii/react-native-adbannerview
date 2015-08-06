@@ -1,7 +1,7 @@
 # react-native-adbannerview
 This bridge provides ADBannerview for your React Native app.
 Feel free to contribute, if you find something wrong.
-So far the component has not been tested in production -- so please, be kind :-)
+So far the component is not used in production -- so please, be kind :-)
 
 ## Installation
 1. `npm install react-native-adbannerview --save`
@@ -11,13 +11,14 @@ So far the component has not been tested in production -- so please, be kind :-)
 
 ## Usage
 ```javascript
-var ADBannerView = require('./Libraries/ADBannerViewManager/ADBannerViewManager.ios');
+var ADBannerView = require('react-native-adbannerview');
 
 ...
 
 <ADBannerView />
 ```
 The bannerview only appears, when an ad has been loaded successfully.
+Also check the example below, with an additional view-wrapper.
 
 ## Props
 | Event  | Description |
@@ -37,7 +38,7 @@ The bannerview only appears, when an ad has been loaded successfully.
 'use strict';
 
 var React = require('react-native');
-var ADBannerView = require('./Libraries/ADBannerViewManager/ADBannerViewManager.ios');
+var ADBannerView = require('react-native-adbannerview');
 var {
   AppRegistry,
   StyleSheet,
@@ -99,4 +100,3 @@ AppRegistry.registerComponent('helloworld', () => helloworld);
 
 ## Known Issues
 * The component doesn't resize after a device orientation change
-* Installation is not yet supported through NPM
