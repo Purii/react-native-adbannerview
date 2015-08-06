@@ -9,6 +9,8 @@ So far the component is not used in production -- so please, be kind :-)
 1. Choose `node_modules/react-native-adbannerview/lib/ADBannerViewManager.xcodeproj`
 1. Xcode: Select the project in the navigator and add the library to the `Build Phases` ➜ `Link Binary With Libraries` (`libADBannerViewManager.a`)
 
+See: http://facebook.github.io/react-native/docs/linking-libraries-ios.html#content (Step 1 + 2)
+
 ## Usage
 ```javascript
 var ADBannerView = require('react-native-adbannerview');
