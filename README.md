@@ -1,7 +1,8 @@
 # react-native-adbannerview
-This bridge provides ADBannerview for your React Native app.
-Feel free to contribute, if you find something wrong.
-So far the component is not used in production -- so please, be kind :-)
+[![npm version](http://img.shields.io/npm/v/react-native-adbannerview.svg?style=flat-square)](https://www.npmjs.com/package/react-native-adbannerview)
+
+This component serves as a bridge for ADBannerview.
+Feel free to contribute :-)
 
 ## Installation
 1. `npm install react-native-adbannerview --save`
@@ -20,7 +21,7 @@ var ADBannerView = require('react-native-adbannerview');
 <ADBannerView />
 ```
 The bannerview only appears, when an ad has been loaded successfully.
-Also check the example below, with an additional view-wrapper.
+Check the example below, where an additional View-Component is used to display the ADBannerView properly.
 
 ## Props
 | Event  | Description |
