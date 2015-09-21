@@ -8,6 +8,7 @@
   "license": "MIT",
   "keywords": [
     "react-native",
+    "react-component",
     "ADBannerView",
     "iAd",
     "iOS"
