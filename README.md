@@ -41,20 +41,23 @@ Check the example below, where an additional View-Component is used to display t
 'use strict';
 
 var React = require('react-native');
-var ADBannerView = require('react-native-adbannerview');
 var {
   AppRegistry,
+  Component,
   StyleSheet,
   Text,
   View,
 } = React;
+var ADBannerView = require('react-native-adbannerview');
 
-class helloworld extends React.Component {
-
+class Example extends Component {
+  didLoadAd () {
+    console.log('Ad loaded')
+  }
+  didFailToReceiveAdWithError() {
+    console.log('Error loading ad')
+  }
   render() {
-    var didLoadAd = function() { console.log('Ad loaded') };
-    var didFailToReceiveAdWithError = function() { console.log('Error loading ad') };
-
     return (
       <View style={styles.stage}>
         <View style={styles.container}>
@@ -62,14 +65,14 @@ class helloworld extends React.Component {
             Welcome to React Native!
           </Text>
           <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+            To get started, edit index.ios.js
           </Text>
           <Text style={styles.instructions}>
             Press Cmd+R to reload,{'\n'}
             Cmd+D or shake for dev menu
           </Text>
         </View>
-        <ADBannerView didLoadAd={didLoadAd} didFailToReceiveAdWithError={didFailToReceiveAdWithError} />
+        <ADBannerView didLoadAd={this.didLoadAd} didFailToReceiveAdWithError={this.didFailToReceiveAdWithError} />
       </View>
     );
   }
@@ -95,10 +98,9 @@ var styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
-
 });
 
-AppRegistry.registerComponent('helloworld', () => helloworld);
+AppRegistry.registerComponent('example', () => Example);
 ```
 
 ## Known Issues
