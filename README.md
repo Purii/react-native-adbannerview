@@ -102,6 +102,12 @@ var styles = StyleSheet.create({
 
 AppRegistry.registerComponent('example', () => Example);
 ```
+### Run example
+1. Clone repo
+2. `cd example`
+3. `npm i`
+4. Xcode: hit `build and run`
+
 
 ## Known Issues
 * The component doesn't resize after a device orientation change
