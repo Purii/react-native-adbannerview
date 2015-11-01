@@ -2,7 +2,7 @@
   "name": "react-native-adbannerview",
   "description": "React Native Bridge for ADBannerView",
   "homepage": "https://github.com/Purii/react-native-adbannerview",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "Patrick Puritscher <blackout289@gmail.com",
   "main": "index.js",
   "license": "MIT",
