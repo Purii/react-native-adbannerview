@@ -11,8 +11,11 @@
     "react-component",
     "ADBannerView",
     "iAd",
-    "iOS"
+    "ios"
   ],
+  "peerDependencies": {
+    "react-native": ">=0.13 || 0.14.0-rc"
+  },
   "bugs": {
     "url": "https://github.com/Purii/react-native-adbannerview/issues"
   },
