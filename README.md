@@ -14,7 +14,7 @@ See: http://facebook.github.io/react-native/docs/linking-libraries-ios.html#cont
 
 ## Usage
 ```javascript
-var ADBannerView = require('react-native-adbannerview');
+import ADBannerView from 'react-native-adbannerview';
 
 ...
 
@@ -38,17 +38,15 @@ Check the example below, where an additional View-Component is used to display t
  * Sample React Native App
  * https://github.com/facebook/react-native
  */
-'use strict';
-
-var React = require('react-native');
-var {
+import React, {
   AppRegistry,
   Component,
   StyleSheet,
   Text,
   View,
-} = React;
-var ADBannerView = require('react-native-adbannerview');
+} from 'react-native';
+
+import ADBannerView from 'react-native-adbannerview';
 
 class Example extends Component {
   didLoadAd () {
@@ -72,15 +70,15 @@ class Example extends Component {
             Cmd+D or shake for dev menu
           </Text>
         </View>
-        <ADBannerView didLoadAd={this.didLoadAd} didFailToReceiveAdWithError={this.didFailToReceiveAdWithError} />
+        <ADBannerView didLoadAd={this.didLoadAd} didFailToReceiveAdWithError={this.didFailToReceiveAdWithError} willLoadAd={() => {}}/>
       </View>
     );
   }
 };
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   stage: {
-    flex: 1,
+    flex: 1
   },
   container: {
     flex: 1,
