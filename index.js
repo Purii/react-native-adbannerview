@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = require('./lib/ADBannerViewManager.ios');
+export {default} from './lib/ADBannerViewManager.ios';
