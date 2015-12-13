@@ -1,13 +1,12 @@
 {
   "name": "example",
-  "description": "Example for react-native-adbannerview, based on https://github.com/facebook/react-native/tree/master/Libraries/Sample",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "react-native start"
   },
   "dependencies": {
-    "react-native": "^0.13.0",
-    "react-native-adbannerview": "^1.1.2"
+    "react-native": "^0.16.0",
+    "react-native-adbannerview": "^1.2.0"
   }
 }
