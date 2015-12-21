@@ -105,7 +105,3 @@ AppRegistry.registerComponent('example', () => Example);
 2. `cd example`
 3. `npm i`
 4. Xcode: hit `build and run`
-
-
-## Known Issues
-* The component doesn't resize after a device orientation change
