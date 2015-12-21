@@ -28,6 +28,7 @@ ADBannerView *_adBanner;
         @"eventName": @"didFailToReceiveAdWithError"
     };
     [self.bridge.eventDispatcher sendAppEventWithName:@"ADBannerView" body:event];
+    return;
 }
 
 // Before a new banner ad is loaded
