@@ -4,6 +4,7 @@
 
 #import "RCTBridge.h"
 #import "RCTEventDispatcher.h"
+#import "UIView+React.h"
 
 @implementation ADBannerViewManager
 
@@ -23,24 +24,31 @@ ADBannerView *_adBanner;
 // Error loading banner
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
 {
-    NSString *eventName = @"didFailToReceiveAdWithError";
-    [self.bridge.eventDispatcher sendAppEventWithName:@"BannerView" body:@{@"eventName": eventName}];
-    return;
+    NSDictionary *event = @{
+        @"eventName": @"didFailToReceiveAdWithError"
+    };
+    [self.bridge.eventDispatcher sendAppEventWithName:@"ADBannerView" body:event];
 }
 
 // Before a new banner ad is loaded
 - (void)bannerViewWillLoadAd:(ADBannerView *)banner
 {
-    NSString *eventName = @"willLoadAd";
-    [self.bridge.eventDispatcher sendAppEventWithName:@"BannerView" body:@{@"eventName": eventName}];
+    NSDictionary *event = @{
+        @"eventName": @"willLoadAd"
+    };
+    
+    [self.bridge.eventDispatcher sendAppEventWithName:@"ADBannerView" body:event];
 }
 
 
 // When a new banner ad is loaded
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
 {
-    NSString *eventName = @"didLoadAd";
-    [self.bridge.eventDispatcher sendAppEventWithName:@"BannerView" body:@{@"eventName": eventName}];
+    NSDictionary *event = @{
+        @"eventName": @"didLoadAd"
+    };
+    
+    [self.bridge.eventDispatcher sendAppEventWithName:@"ADBannerView" body:event];
     
 }
 
@@ -48,12 +56,12 @@ ADBannerView *_adBanner;
 // After banner view finishes executing an action
 - (void)bannerViewActionDidFinish:(ADBannerView *)banner
 {
-    NSString *eventName = @"actionDidFinish";
-    [self.bridge.eventDispatcher sendAppEventWithName:@"BannerView" body:@{@"eventName": eventName}];
+    NSDictionary *event = @{
+        @"eventName": @"actionDidFinish"
+    };
+    
+    [self.bridge.eventDispatcher sendAppEventWithName:@"ADBannerView" body:event];
     
 }
-
-
-
 
 @end

@@ -2,7 +2,7 @@
   "name": "react-native-adbannerview",
   "description": "React Native Bridge for ADBannerView",
   "homepage": "https://github.com/Purii/react-native-adbannerview",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Patrick Puritscher <blackout289@gmail.com",
   "main": "index.js",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "ios"
   ],
   "peerDependencies": {
-    "react-native": ">=0.16 || 0.17.0-rc"
+    "react-native": ">=0.17 || 0.18.0-rc"
   },
   "bugs": {
     "url": "https://github.com/Purii/react-native-adbannerview/issues"
