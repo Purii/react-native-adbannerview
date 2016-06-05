@@ -1,5 +1,6 @@
 # react-native-adbannerview
-[![npm version](http://img.shields.io/npm/v/react-native-adbannerview.svg?style=flat-square)](https://www.npmjs.com/package/react-native-adbannerview)
+[![Build Status](https://travis-ci.org/Purii/react-native-adbannerview.svg?branch=master)](https://travis-ci.org/Purii/react-native-adbannerview)
+[![npm version](http://img.shields.io/npm/v/react-native-adbannerview.svg?style=flat)](https://www.npmjs.com/package/react-native-adbannerview)
 
 This component serves as a bridge for ADBannerview.
 Feel free to contribute :-)
@@ -39,8 +40,10 @@ Check the example below, where an additional View-Component is used to display t
  * https://github.com/facebook/react-native
  */
 import React, {
-  AppRegistry,
   Component,
+}
+import {
+  AppRegistry,
   StyleSheet,
   Text,
   View,
@@ -78,7 +81,7 @@ class Example extends Component {
 
 const styles = StyleSheet.create({
   stage: {
-    flex: 1
+    flex: 1,
   },
   container: {
     flex: 1,
