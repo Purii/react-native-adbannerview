@@ -1,1 +1,1 @@
-export {default} from './lib/ADBannerViewManager.ios';
+export { default } from './lib/ADBannerViewManager.ios';
