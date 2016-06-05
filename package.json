@@ -2,7 +2,7 @@
   "name": "react-native-adbannerview",
   "description": "React Native Bridge for ADBannerView",
   "homepage": "https://github.com/Purii/react-native-adbannerview",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Patrick Puritscher <hello@patrickpuritscher.com>",
   "scripts": {
     "lint": "eslint index.js lib/",
