@@ -39,9 +39,7 @@ Check the example below, where an additional View-Component is used to display t
  * Sample React Native App
  * https://github.com/facebook/react-native
  */
-import React, {
-  Component,
-}
+import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -52,7 +50,7 @@ import {
 import ADBannerView from 'react-native-adbannerview';
 
 class Example extends Component {
-  didLoadAd () {
+  didLoadAd() {
     console.log('Ad loaded')
   }
   didFailToReceiveAdWithError() {
@@ -73,7 +71,7 @@ class Example extends Component {
             Cmd+D or shake for dev menu
           </Text>
         </View>
-        <ADBannerView didLoadAd={this.didLoadAd} didFailToReceiveAdWithError={this.didFailToReceiveAdWithError} willLoadAd={() => {}}/>
+        <ADBannerView didLoadAd={this.didLoadAd} didFailToReceiveAdWithError={this.didFailToReceiveAdWithError} willLoadAd={() => {}} />
       </View>
     );
   }

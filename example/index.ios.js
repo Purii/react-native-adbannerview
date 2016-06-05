@@ -1,10 +1,12 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
+ * @flow
  */
-import React, {
+
+import React, { Component } from 'react';
+import {
   AppRegistry,
-  Component,
   StyleSheet,
   Text,
   View,
@@ -12,12 +14,12 @@ import React, {
 
 import ADBannerView from 'react-native-adbannerview';
 
-class Example extends Component {
-  didLoadAd () {
-    console.log('Ad loaded')
+class example extends Component {
+  didLoadAd() {
+    console.log('Ad loaded');
   }
   didFailToReceiveAdWithError() {
-    console.log('Error loading ad')
+    console.log('Error loading ad');
   }
   render() {
     return (
@@ -34,15 +36,15 @@ class Example extends Component {
             Cmd+D or shake for dev menu
           </Text>
         </View>
-        <ADBannerView didLoadAd={this.didLoadAd} didFailToReceiveAdWithError={this.didFailToReceiveAdWithError} willLoadAd={() => {}}/>
+        <ADBannerView didLoadAd={this.didLoadAd} didFailToReceiveAdWithError={this.didFailToReceiveAdWithError} willLoadAd={() => {}} />
       </View>
     );
   }
-};
+}
 
 const styles = StyleSheet.create({
   stage: {
-    flex: 1
+    flex: 1,
   },
   container: {
     flex: 1,
@@ -59,7 +61,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
-  }
+  },
 });
 
-AppRegistry.registerComponent('example', () => Example);
+AppRegistry.registerComponent('example', () => example);

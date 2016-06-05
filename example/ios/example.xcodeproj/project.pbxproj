@@ -22,7 +22,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		CD83BEBE1C1CF49A00877FB0 /* libADBannerViewManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD83BEB31C1CF49100877FB0 /* libADBannerViewManager.a */; };
+		CDBE01E01D04930D00CDD703 /* libADBannerViewManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE01D51D04930400CDD703 /* libADBannerViewManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,9 +103,9 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		CD83BEB21C1CF49100877FB0 /* PBXContainerItemProxy */ = {
+		CDBE01D41D04930400CDD703 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CD83BEAE1C1CF49100877FB0 /* ADBannerViewManager.xcodeproj */;
+			containerPortal = CDBE01D01D04930300CDD703 /* ADBannerViewManager.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = ADBannerViewManager;
@@ -134,7 +134,7 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		CD83BEAE1C1CF49100877FB0 /* ADBannerViewManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ADBannerViewManager.xcodeproj; path = "../node_modules/react-native-adbannerview/lib/ADBannerViewManager.xcodeproj"; sourceTree = "<group>"; };
+		CDBE01D01D04930300CDD703 /* ADBannerViewManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ADBannerViewManager.xcodeproj; path = "../node_modules/react-native-adbannerview/lib/ADBannerViewManager.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD83BEBE1C1CF49A00877FB0 /* libADBannerViewManager.a in Frameworks */,
+				CDBE01E01D04930D00CDD703 /* libADBannerViewManager.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -272,7 +272,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				CD83BEAE1C1CF49100877FB0 /* ADBannerViewManager.xcodeproj */,
+				CDBE01D01D04930300CDD703 /* ADBannerViewManager.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -316,10 +316,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD83BEAF1C1CF49100877FB0 /* Products */ = {
+		CDBE01D11D04930300CDD703 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD83BEB31C1CF49100877FB0 /* libADBannerViewManager.a */,
+				CDBE01D51D04930400CDD703 /* libADBannerViewManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -391,8 +391,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = CD83BEAF1C1CF49100877FB0 /* Products */;
-					ProjectRef = CD83BEAE1C1CF49100877FB0 /* ADBannerViewManager.xcodeproj */;
+					ProductGroup = CDBE01D11D04930300CDD703 /* Products */;
+					ProjectRef = CDBE01D01D04930300CDD703 /* ADBannerViewManager.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
@@ -514,11 +514,11 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CD83BEB31C1CF49100877FB0 /* libADBannerViewManager.a */ = {
+		CDBE01D51D04930400CDD703 /* libADBannerViewManager.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libADBannerViewManager.a;
-			remoteRef = CD83BEB21C1CF49100877FB0 /* PBXContainerItemProxy */;
+			remoteRef = CDBE01D41D04930400CDD703 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -555,7 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "../node_modules/react-native/packager/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -604,10 +604,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -625,10 +621,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = exampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -649,7 +641,10 @@
 				);
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_NAME = example;
 			};
 			name = Debug;
@@ -665,7 +660,10 @@
 				);
 				INFOPLIST_FILE = example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_NAME = example;
 			};
 			name = Release;
