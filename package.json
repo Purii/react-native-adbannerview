@@ -18,7 +18,7 @@
     "ios"
   ],
   "peerDependencies": {
-    "react-native": ">=0.17 || 0.18.0-rc"
+    "react-native": ">=0.25 || 0.28.0-rc"
   },
   "bugs": {
     "url": "https://github.com/Purii/react-native-adbannerview/issues"
