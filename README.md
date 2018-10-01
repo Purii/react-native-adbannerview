@@ -1,4 +1,4 @@
-# react-native-adbannerview
+# react-native-adbannerview [DEPRECATED]
 [![Build Status](https://travis-ci.org/Purii/react-native-adbannerview.svg?branch=master)](https://travis-ci.org/Purii/react-native-adbannerview)
 [![npm version](http://img.shields.io/npm/v/react-native-adbannerview.svg?style=flat)](https://www.npmjs.com/package/react-native-adbannerview)
 
